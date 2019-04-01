@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Popover</title>
+	</head>
+		<body>
+		<div class="container">
+			<h3>Popover Example</h3>
+			<a href="#" data-toggle="popover" title="Popover Header" data-content="Popover Body!">Toggle Popover</a>
+			<h3>Popover Example</h3>
+			<a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Top</a>
+			<a href="#" title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Bottom</a>
+			<a href="#" title="Header" data-toggle="popover" data-placement="left" data-content="Content">Left</a>
+			<a href="#" title="Header" data-toggle="popover" data-placement="right" data-content="Content">Right</a>
+			<h3>Closing Popover</h3>
+			<a href="#" data-toggle="popover" title="Popover Header" data-content="Popover Body!" data-trigger="focus">Toggle</a>
+			<h3>Auto Closing Popover</h3>
+			<a href="#" data-toggle="popover" title="Popover Header" data-content="Popover Body!" data-trigger="hover">Toggle</a>
+		</div>
+		<script>
+			$(document).ready(function(){
+			   $('[data-toggle="popover"]').popover();
+			});
+		</script>
+		</body>
+</html>
+	

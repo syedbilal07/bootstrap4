@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Dropdowns</title>
+	</head>
+		<body>
+		<div class="container">
+			<h2>Dropdowns</h2>
+			<p>The .dropdown class is used to indicate a dropdown menu.</p>
+			<p>Use the .dropdown-menu class to actually build the dropdown menu.</p>
+			<p>To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and
+				data-toggle="dropdown".</p>
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown Button
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item">Item 1</a>
+					<a class="dropdown-item">Item 2</a>
+					<a class="dropdown-item">Item 3</a>
+				</div>
+			</div>
+			<h2>Dropdowns</h2>
+			<p>The .dropdown-divider class is used to separate links inside the dropdown menu with a thin
+				horizontal line:</p>
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown Button
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item">Item 1</a>
+					<a class="dropdown-item">Item 2</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item">Item 3</a>
+				</div>
+			</div>
+			<h2>Dropdowns</h2>
+			<p>The .dropdown-header class is used to add headers inside the dropdown menu:</p>
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown Button
+				</button>
+				<div class="dropdown-menu">
+					<div class="dropdown-header">Header</div>
+					<a class="dropdown-item">Item 1</a>
+					<a class="dropdown-item">Item 2</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item">Item 3</a>
+				</div>
+			</div>
+			<h2>Dropdowns</h2>
+			<p>The .active class adds a blue background color to the active link.</p>
+			<p>The .disabled class disables a dropdown item (grey text color and a no-parking-sign on hover).</p>
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Normal</a>
+					<a class="dropdown-item active" href="#">Active</a>
+					<a class="dropdown-item disabled" href="#">Disabled</a>
+				</div>
+			</div>
+			<h2>Dropdowns</h2>
+			<p>Add the .dropdown-menu-right class to .dropdown-menu to right-align the dropdown menu:</p>
+			<div class="dropdown">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown
+				</button>
+				<div class="dropdown-menu dropdown-menu-right">
+					<a class="dropdown-item" href="#">Link 1</a>
+					<a class="dropdown-item" href="#">Link 2</a>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+			</div>
+			<h2>Dropdowns</h2>
+			<p>The .dropup class makes the dropdown menu expand upwards instead of downwards:</p>
+			<div class="dropup">
+				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					Dropdown
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Link 1</a>
+					<a class="dropdown-item" href="#">Link 2</a>
+					<a class="dropdown-item" href="#">Link 3</a>
+				</div>
+			</div>
+			<h2>Dropdown Split Buttons</h2>
+			<div class="btn-group">
+				<button type="button" class="btn btn-primary">Primary</button>
+				<button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+				</button>
+				<div class="dropdown-menu">
+					<a class="dropdown-item">First Item</a>
+					<a class="dropdown-item">Second Item</a>
+				</div>
+			</div>
+			<div class="btn-group">
+			<button type="button" class="btn btn-secondary">Secondary</button>
+			<button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+			</button>
+			<div class="dropdown-menu">
+				<a class="dropdown-item">First Item</a>
+				<a class="dropdown-item">Second Item</a>
+			</div>
+		</div>
+		<div class="btn-group">
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item">First Item</a>
+			<a class="dropdown-item">Second Item</a>
+		</div>
+		</div>
+		<div class="btn-group">
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item">First Item</a>
+			<a class="dropdown-item">Second Item</a>
+		</div>
+		</div>
+		<div class="btn-group">
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item">First Item</a>
+			<a class="dropdown-item">Second Item</a>
+		</div>
+		</div>
+		<div class="btn-group">
+		<button type="button" class="btn btn-dark">Dark</button>
+		<button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
+
+		</button>
+		<div class="dropdown-menu">
+			<a class="dropdown-item">First Item</a>
+			<a class="dropdown-item">Second Item</a>
+		</div>
+		</div>
+		</div>
+		</body>
+</html>
+	

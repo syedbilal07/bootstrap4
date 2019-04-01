@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Utilities</title>
+	<style>
+		.border
+		{
+			display: inline-block;
+			width: 70px;
+			height: 70px;
+			margin: 6px;
+		}
+	</style>
+	</head>
+		<body>
+		<div class="container">
+			<h2>Borders</h2>
+			<p>Use the border classes to add or remove borders from an element:</p>
+			<span class="border"></span>
+			<span class="border border-0"></span>
+			<span class="border border-top-0"></span>
+			<span class="border border-right-0"></span>
+			<span class="border border-bottom-0"></span>
+			<span class="border border-left-0"></span>
+			<h2>Borders</h2>
+			<p>Use a contextual border color to add a color to the border:</p>
+			<span class="border border-primary"></span>
+			<span class="border border-secondary"></span>
+			<span class="border border-success"></span>
+			<span class="border border-danger"></span>
+			<span class="border border-warning"></span>
+			<span class="border border-info"></span>
+			<span class="border border-light"></span>
+			<span class="border border-dark"></span>
+			<span class="border border-white"></span>
+			<h2>Float</h2>
+			<p>Float an element to the right with the .float-right class or to the left with .float-left, and
+				clear floats with the .clearfix class.</p>
+			<div class="clearfix">
+				<span class="float-left">Float left</span>
+				<span class="float-right">Float right</span>
+			</div>
+			<h2>Responsive Floats</h2>
+			<p>Float an element to the left or to the right depending on screen width, with the responsive float
+				classes .float-*-left|right (where * is sm, md, lg or xl).</p>
+			<p>Resize the browser window to see the effect.</p>
+			<div class="clearfix">
+				<div class="float-sm-right">Float right on small screens or wider</div><br>
+				<div class="float-md-right">Float right on medium screens or wider</div><br>
+				<div class="float-lg-right">Float right on large screens or wider</div><br>
+				<div class="float-xl-right">Float right on extra large screens or wider</div><br>
+				<div class="float-none">Float none</div>
+			</div>
+			<h1>Horizontal Centering</h1>
+			<p>Center an element with the .mx-auto class:</p>
+			<div class="mx-auto bg-warning" style="width:150px">Centered</div>
+			<h1>Width Utilities</h1>
+			<p>Set the width of an element with the w-* classes:</p>
+			<div class="w-25 bg-warning">Width 25%</div>
+			<div class="w-50 bg-warning">Width 50%</div>
+			<div class="w-75 bg-warning">Width 75%</div>
+			<div class="w-100 bg-warning">Width 100%</div>
+			<div class="mw-100 bg-warning">Max Width 100%</div>
+			<h1>Height Utilities</h1>
+			<p>Set the height of an element with the w-* classes:</p>
+			<div style="height:200px;background-color:#ddd">
+				<div class="h-25 d-inline-block p-1 bg-warning">Height 25%</div>
+				<div class="h-50 d-inline-block p-2 bg-warning">Height 50%</div>
+				<div class="h-75 d-inline-block p-2 bg-warning">Height 75%</div>
+				<div class="h-100 d-inline-block p-2 bg-warning">Height 100%</div>
+				<div class="mh-100 d-inline-block p-2 bg-warning" style="height:500px">Max Height 100%</div>
+			</div>
+			<h1>Spacing Utilities</h1>
+			<p>Set the spacing of an element with the {property}{sides}-{breakpoint}-{size} classes.
+				Omit breakpoint if you want the padding or margin to work on all screen sizes.</p>
+			<div class="pt-4 bg-warning">I only have a top padding (1.5rem = 24px)</div>
+			<div class="p-5 bg-success">I have a padding on all sides (3rem = 48px)</div>
+			<div class="m-5 pb-5 bg-info">I have a margin on all sides (3rem = 48px) and a bottom
+				padding (3rem = 48px)</div>
+			<h1>Vertical Align</h1>
+			<p>Change the alignment of elements with the align classes (only works on inline, inline-block,
+				inline-table and table cell elements):</p>
+			<span class="align-baseline">baseline</span>
+			<span class="align-top">top</span>
+			<span class="align-middle">middle</span>
+			<span class="align-bottom">bottom</span>
+			<span class="align-text-top">text-top</span>
+			<span class="align-text-bottom">text-bottom</span>
+		</div>
+		</body>
+</html>
+	
